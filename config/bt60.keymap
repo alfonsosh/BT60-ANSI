@@ -37,20 +37,20 @@
 		};
 		raise {
 			bindings = <
-				&kp NON_US_BSLH &kp F1 &kp F2 &kp F3 &kp F4 &kp F5 &kp F6 &kp F7 &kp F8 &kp F9 &kp F10 &kp F11 &kp F12 &kp DEL
+				&kp BSLH &kp F1 &kp F2 &kp F3 &kp F4 &kp F5 &kp F6 &kp F7 &kp F8 &kp F9 &kp F10 &kp F11 &kp F12 &kp DEL
 				&trans &kp HOME &kp UP &kp END &trans &trans &trans &trans &kp INS &trans &kp PSCRN &kp SLCK &kp PAUSE_BREAK &rgb_ug &trans
 				&trans    &kp LEFT &kp DOWN &kp RIGHT &trans &trans &trans &trans &trans &trans &kp HOME  &kp PG_UP   &trans
-				&kp C_PREV &kp NON_US_BSLH &kp C_VOL_UP &kp BSLH &bl BL_INC &bl BL_DEC &bt BT_CLR &trans &trans &kp END &kp PG_DN  &trans  &trans 
+				&trans &kp NON_US_BSLH &kp C_VOL_UP &kp BSLH &bl BL_INC &bl BL_DEC &bt BT_CLR &trans &trans &kp END &kp PG_DN  &trans  &trans 
 				&bt BT_PRV &bt BT_NXT  &trans              &trans                            &trans   &trans  &trans &trans  &trans 
 			>;
 			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
 		};
 		raise_clone {
 			bindings = <
-				&kp NON_US_BSLH &kp F1 &kp F2 &kp F3 &kp F4 &kp F5 &kp F6 &kp F7 &kp F8 &kp F9 &kp F10 &kp F11 &kp F12 &kp DEL
+				&kp BSLH &kp F1 &kp F2 &kp F3 &kp F4 &kp F5 &kp F6 &kp F7 &kp F8 &kp F9 &kp F10 &kp F11 &kp F12 &kp DEL
 				&trans &kp HOME &kp UP &kp END  &trans &trans &trans &trans &kp INS &trans &kp PSCRN &kp SLCK &kp PAUSE_BREAK &rgb_ug &trans
-				&trans    &kp LEFT &kp DOWN &kp RIGHT &trans &trans &trans &trans &trans &trans &kp HOME  &kp PG_UP   &trans
-				&kp C_PREV &kp NON_US_BSLH &kp C_VOL_UP &kp BSLH &trans &trans &trans &trans &trans &kp END &kp PG_DN  &trans  &trans 
+				&trans &kp LEFT &kp DOWN &kp RIGHT &trans &trans &trans &trans &trans &trans &kp HOME  &kp PG_UP   &trans
+				&trans &kp NON_US_BSLH &kp C_VOL_UP &kp BSLH &trans &trans &trans &trans &trans &kp END &kp PG_DN  &trans  &trans 
 				&bt BT_PRV &bt BT_NXT  &trans              &trans                            &trans   &trans  &trans &trans  &trans 
 			>;
 			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
@@ -58,10 +58,10 @@
 		setup {
 			bindings = <
 				&trans &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &kp F4 &kp F5 &kp F6 &kp F7 &kp F8 &kp F9 &kp F10 &kp F11 &kp F12 &kp DEL
-				&trans &trans &kp UP &reset &trans &trans &trans &trans &kp INS &trans &kp PSCRN &kp SLCK &kp PAUSE_BREAK &rgb_ug RGB_TOG
-				&mo 2    &kp LEFT &kp DOWN &kp RIGHT &bootloader &trans &trans &trans &trans &trans &kp HOME  &kp PG_UP   &trans
-				&kp C_PREV &kp C_VOL_DN &kp C_VOL_UP &kp C_MUTE &bt BT_PRV &bt BT_CLR &bt BT_NXT &trans &trans &kp END &kp PG_DN  &bl BL_INC &reset
-				&bt BT_PRV &bt BT_NXT  &trans              &trans                            &trans   &mo 2  &trans &bl BL_DEC  &trans 
+				&trans &trans &kp UP &trans &reset &trans &trans &trans &kp INS &trans &kp PSCRN &kp SLCK &kp PAUSE_BREAK &rgb_ug RGB_TOG
+				&trans   &kp LEFT &kp DOWN &kp RIGHT &bootloader &trans &trans &trans &trans &trans &kp HOME  &kp PG_UP   &trans
+				&kp C_PREV &kp C_VOL_DN &kp C_VOL_UP &kp C_MUTE &bt BT_PRV &bt BT_CLR &bt BT_NXT &trans &trans &kp END &kp PG_DN  &bl BL_INC &trans
+				&bt BT_PRV &bt BT_NXT  &trans              &trans                            &trans   &trans  &trans &bl BL_DEC  &trans 
 			>;
 			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
 		};
