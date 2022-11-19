@@ -38,20 +38,20 @@
 		raise {
 			bindings = <
 				&kp GRAVE &kp F1 &kp F2 &kp F3 &kp F4 &kp F5 &kp F6 &kp F7 &kp F8 &kp F9 &kp F10 &kp F11 &kp F12 &kp DEL
-				&trans &kp HOME &kp UP &kp END &trans &trans &trans &trans &kp INS &trans &kp PSCRN &kp SLCK &kp PAUSE_BREAK &trans &kp PIPE
-				&trans    &kp LEFT &kp DOWN &kp RIGHT &trans &trans &trans &trans &trans &trans &kp HOME  &kp PG_UP   &trans
+				&trans &kp HOME &kp UP &kp END &trans &trans &trans &trans &kp INS &trans &kp PSCRN &kp SLCK &kp PAUSE_BREAK  &kp PIPE
+				&mo 2   &kp LEFT &kp DOWN &kp RIGHT &trans &trans &trans &trans &trans &trans &kp HOME  &kp PG_UP   &trans
 				&kp LSHFT  &kp NON_US_BSLH &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA &kp DOT &kp RSHFT  &kp UP  &kp FSLH
-				&bt BT_PRV &bt BT_NXT  &trans              &trans                            &trans   &trans  &trans &trans  &trans 
+				&bt BT_PRV &bt BT_NXT  &trans              &trans                            &trans   &mo 1  &trans &trans  &trans 
 			>;
 			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
 		};
 		raise_clone {
 			bindings = <
 				&kp GRAVE &kp F1 &kp F2 &kp F3 &kp F4 &kp F5 &kp F6 &kp F7 &kp F8 &kp F9 &kp F10 &kp F11 &kp F12 &kp DEL
-				&trans &kp HOME &kp UP &kp END &trans &trans &trans &trans &kp INS &trans &kp PSCRN &kp SLCK &kp PAUSE_BREAK &trans &kp PIPE
-				&trans    &kp LEFT &kp DOWN &kp RIGHT &trans &trans &trans &trans &trans &trans &kp HOME  &kp PG_UP   &trans
+				&trans &kp HOME &kp UP &kp END &trans &trans &trans &trans &kp INS &trans &kp PSCRN &kp SLCK &kp PAUSE_BREAK  &kp PIPE
+				&mo 2    &kp LEFT &kp DOWN &kp RIGHT &trans &trans &trans &trans &trans &trans &kp HOME  &kp PG_UP   &trans
 				&kp LSHFT  &kp NON_US_BSLH &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA &kp DOT &kp RSHFT  &kp UP  &kp FSLH
-				&bt BT_PRV &bt BT_NXT  &trans              &trans                            &trans   &trans  &trans &trans  &trans 
+				&bt BT_PRV &bt BT_NXT  &trans              &trans                            &trans   &mo 1  &trans &trans  &trans 
 			>;
 			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
 		};
